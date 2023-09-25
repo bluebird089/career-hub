@@ -12,8 +12,6 @@ import Static from './components/Static/Static';
 import ErrorElement from './components/ErrorElement/ErrorElement';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 
-
-
 const router = createBrowserRouter([
   {
     path: "/",

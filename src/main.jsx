@@ -33,7 +33,12 @@ const router = createBrowserRouter([
       {
         path: "/jobs",
         element: <AppliedJobs></AppliedJobs>,
-      }
+        children: [
+          {
+            
+          }
+        ]
+      },
     ]
   },
 ]);
